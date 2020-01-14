@@ -150,3 +150,18 @@ mean(smeans)
 2
 1
 
+
+#################
+#  quiz week 1  #
+#################
+
+# P(M) + .12 -.06 = .17 
+
+# 5
+x <- 1:4
+p <- x/sum(x)
+temp <- rbind(x, p)
+rownames(temp) <- c("X", "Prob")
+temp
+sum(temp[1,]*temp[2,])
+
