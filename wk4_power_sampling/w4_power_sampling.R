@@ -229,3 +229,5 @@ testStat(DEcounts, group)
 
 perms <- sapply(1:10000, function(i) testStat(DEcounts, sample(group)))
 
+
+

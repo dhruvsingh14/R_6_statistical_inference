@@ -155,13 +155,17 @@ mean(smeans)
 #  quiz week 1  #
 #################
 
-# P(M) + .12 -.06 = .17 
+#q1
+# .17 = .12 + P(M) - .06
+# P(M) = .11
 
-# 5
-x <- 1:4
-p <- x/sum(x)
-temp <- rbind(x, p)
-rownames(temp) <- c("X", "Prob")
-temp
-sum(temp[1,]*temp[2,])
+#q2
+
+
+
+
+
+
+
+
 
